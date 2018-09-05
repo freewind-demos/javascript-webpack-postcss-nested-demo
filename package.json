@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "demo": "node hello.js"
+    "demo": "postcss hello.css --use autoprefixer -d ./build/"
   },
-  "dependencies": {
-    "lodash": "^4.17.10"
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "postcss-cli": "^6.0.0"
   }
 }
