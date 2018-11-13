@@ -1,1 +1,1 @@
-require('./hello.css')
+require('./hello.pcss')

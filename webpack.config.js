@@ -8,7 +8,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.css$/,
+                test: /\.pcss$/,
                 use: [
                     'style-loader',
                     'postcss-loader'
