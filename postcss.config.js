@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: {
-    'precss': {}
-  }
+  plugins: [
+    require('postcss-nested')()
+  ]
 }
